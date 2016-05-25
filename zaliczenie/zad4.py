@@ -13,8 +13,8 @@ print(20 * npr.rand())
 
 print(30 * npr.rand() + 20)
 
-print(npr.randint(0, 10))
-
 print(npr.randint(0, 11))
 
-print(npr.randint(50, 100))
+print(npr.randint(0, 12))
+
+print(npr.randint(50, 101))
