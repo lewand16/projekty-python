@@ -5,6 +5,8 @@ Created on Thu May 26 19:23:08 2016
 @author: Liberator
 """
 
+#napisz funkcje sumkrok2, ktora oblicza sume liczb od 1 do n z krokiem 2,
+#gdzie n jest argumentem funkcji
 def sumkrok2(n):
     i = 1
     suma = 0
@@ -12,5 +14,7 @@ def sumkrok2(n):
         suma = suma + i
         i = i + 2       
     return suma
-
-print(sumkrok2(10))
+    
+#dana wejsciowa
+n = 10
+print(sumkrok2(n))

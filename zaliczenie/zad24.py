@@ -5,10 +5,12 @@ Created on Fri May 27 20:08:40 2016
 @author: Liberator
 """
 
-import numpy as np
 import numpy.random as npr
 
-wektor = npr.randint(-10, 10, 5)
+#zbuduj wektor, zawierajacy piec liczb losowych z zakresu od -10 do 10
+#liczby calkowite
+wektor = npr.randint(-10, 11, 5) #calkowite
+wektor2 = 20 * npr.rand(5) - 10 #rzeczywiste
 
 print(wektor)
 

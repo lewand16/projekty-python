@@ -7,7 +7,10 @@ Created on Thu May 26 16:52:19 2016
 
 import numpy as np
 
+#napisz funkcje hipsin argumentu x z definicji sinusa hiperbolicznego(x)
 def hipsin(x):
-    return (np.e**x - np.e**(-2)) / 2
+    return ((np.e**x) - (np.e**(-2))) / 2
 
-print(hipsin(5))
+#dana wejsciowa
+x = 5
+print(hipsin(x))

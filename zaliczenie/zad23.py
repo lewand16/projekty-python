@@ -7,6 +7,9 @@ Created on Fri May 27 19:39:05 2016
 import numpy.random as npr
 import numpy as np
 
+#napisz funkcje, ktora pobiera macierz i oblicza srednia wszystkich jej elementow
+
+#tworzenie losowej macierzy o podanym rozmiarze
 n = 4
 m = 4
 macierz = npr.randint(10,size=(n, m))

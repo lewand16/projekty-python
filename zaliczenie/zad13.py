@@ -7,18 +7,18 @@ Created on Thu May 26 14:46:24 2016
 
 import numpy as np
 import matplotlib.pyplot as plt
-# coś jest źle. Jak zrobić 2**x ?
-#a)
+
+#wykresl funkcje 2^x - (2x - x^2)
+#a) uzyj 10 punktow z zakresu
 x = np.linspace(0, np.pi, 10)
-w1 = [2, 1, -2, 0]
-
-y = np.polyval(w1, x)
+y = 2**x - ((2 * x) - x**2)
 
 plt.plot(x, y)
-#b)
+plt.show()
+
+#b) uzyj 100 punktow z zakresu
 x = np.linspace(0, np.pi, 100)
-w1 = [2, 1, -2, 0]
-
-y = np.polyval(w1, x)
+y = 2**x - ((2 * x) - x**2)
 
 plt.plot(x, y)
+plt.show()

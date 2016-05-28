@@ -6,9 +6,13 @@ Created on Thu May 26 14:18:19 2016
 """
 
 import matplotlib.pyplot as plt
+import numpy.random as npr
+import numpy as np
 
-x = [1, 3, 4, 2, 6, 3, 5, 7, 2, 3, 1, 6, 4]
-y = [4, 2, 4, 3, 1, 5, 3, 4, 5, 2, 3, 5, 7]
+#napisz skrypt, ktory przypisuje wartosci wspolrzednym x i y kilku punktow
+x = np.linspace(0, 10, 31)
+y = npr.rand(31)
 
+#zaznacz te punkty na plaszczyznie xy niebieskimi plusami
 plt.plot(x, y, '+b')
 plt.show()

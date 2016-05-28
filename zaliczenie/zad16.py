@@ -9,8 +9,14 @@ Created on Thu May 26 17:45:21 2016
 #n - lata
 #Tn - suma pieniedzy po n latach
 
+#jezeli pewna suma pieniedzy P jest zlozona na koncie bankowym o oprocentowaniu r
+#i rocznej kapitalizacji, to koncowa suma pieniedzy po n latacy jest dana przez:
 def sumaPieniedzy(P, r, n):
     return P * ((1 + r)**n)
 
-Tn = sumaPieniedzy(1000, .1, 1)
+#dane wejsciowe
+P = 1000
+r = .1
+n = 1
+Tn = sumaPieniedzy(P, r, n)
 print(Tn)

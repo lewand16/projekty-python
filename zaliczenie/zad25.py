@@ -18,10 +18,10 @@ wektor = np.arange(1, n + 1, 2.)
 print('Otrzymany wektor', wektor)
 
 #podnies kazdy element tego wektora do kwadratu
-wektor = wektor**2
-print('Elementy wektora do kwadratu', wektor)
+wektor2 = wektor**2
+print('Elementy wektora do kwadratu', wektor2)
 
 # co to znaczy wykresl kwadraty? Usun czy narysuj? :)
 # przyjmuje, ze chodzi o narysowanie ;]
-plt.plot(wektor)
+plt.plot(wektor, wektor2)
 plt.show()
