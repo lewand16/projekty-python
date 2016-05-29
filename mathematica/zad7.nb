@@ -1,0 +1,16 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*utworz"," ","macierz"," ","4x2"," ","zawierajaca"," ","zera"," ","i"," ","przypisz"," ","ja"," ","do"," ","zmiennej*)"}]]}],"\n",RowBox[
+{"macierz"," ","="," ","Table","[","k","*","0",","," ","{","k",","," ","4","}",","," ","{","k",","," ","2","}","]",";"}],"\n",RowBox[
+{"MatrixForm","[","macierz","]"}],"\n","\n",RowBox[{StyleBox[RowBox[{"(*zastap"," ","jej"," ","drugi"," ","wiersz"," ","przez"," ","3"," ","i"," ","6*)"}]]}],"\n",RowBox[
+{"macierz","[","[","2","]","]"," ","="," ","{","3",","," ","6","}",";"}],"\n",RowBox[
+{"MatrixForm","[","macierz","]"}]}],"Input",CellID->1,CellLabel->"In[16]:= "],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"0","0"},{"0","0"},{"0","0"},{"0","0"}},
+RowSpacings->1,ColumnSpacings->1,RowAlignments->Baseline,ColumnAlignments->Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellID->23,CellLabel->"Out[18]//MatrixForm= "],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"0","0"},{"3","6"},{"0","0"},{"0","0"}},
+RowSpacings->1,ColumnSpacings->1,RowAlignments->Baseline,ColumnAlignments->Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellID->25,CellLabel->"Out[21]//MatrixForm= "]},
+Open]]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

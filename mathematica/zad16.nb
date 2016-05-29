@@ -1,0 +1,13 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*jezeli"," ","pewna"," ","suma"," ","pieniedzy"," ","P"," ","jest"," ","zlozona"," ","na"," ","koncie"," ","bankowym"," ","o"," ","oprocentowaniu"," ","r*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*i"," ","rocznej"," ","kapitalizacji,"," ","to"," ","koncowa"," ","suma"," ","pieniedzy"," ","po"," ","n"," ","latacy"," ","jest"," ","dana"," ","przez:*)"}]]}],"\n",RowBox[
+{"sumaPieniedzy","[","P_",","," ","r_",","," ","n_","]"," ",":="," ","P"," ","*"," ","(","(","1"," ","+"," ","r",")","^","n",")"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*P"," ","-"," ","suma"," ","pieniedzy*)"}]]}],"\n",RowBox[{StyleBox[
+RowBox[{"(*r"," ","-"," ","oprocentowanie"," ","w"," ","skali"," ","roku*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*n"," ","-"," ","lata*)"}]]}],"\n",RowBox[{StyleBox[RowBox[{"(*Tn"," ","-"," ","suma"," ","pieniedzy"," ","po"," ","n"," ","latach*)"}]]}],"\n",RowBox[
+{"P"," ","="," ","1000",";"}],"\n",RowBox[{"r"," ","="," ",".1",";"}],"\n",RowBox[
+{"n"," ","="," ","1",";"}],"\n",RowBox[{"Tn"," ","="," ","sumaPieniedzy","[","P",","," ","r",","," ","n","]","\n"}]}],
+"Input",CellID->1,CellLabel->"In[17]:= "],Cell[
+BoxData["1100.`",StandardForm],"Output",
+CellID->2,CellLabel->"Out[27]= "]},Open]]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

@@ -1,0 +1,11 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*oblicz"," ","objetosc"," ","wydrazonej"," ","kuli,"," ","gdzie"," ","Rz"," ","jest"," ","promieniem"," ","zewnetrznym,"," ","Rw"," ","-"," ","wewnetrznym*)"}]]}],"\n",RowBox[
+{"objWydrKuli","[","Rz_",","," ","Rw_","]"," ",":="," ","(","4"," ","*"," ","Pi"," ","*"," ","(","(","Rz","^","3",")"," ","-"," ","(","Rw","^","3",")",")",")"," ","/"," ","3"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*dane"," ","wejsciowe*)"}]]}],"\n",RowBox[{"Rz"," ","="," ","2",";"}],"\n",RowBox[
+{"Rw"," ","="," ","1",";"}],"\n",RowBox[{"N","[","objWydrKuli","[","Rz",","," ","Rw","]"," ","]"}]}],
+"Input",CellID->1,CellLabel->"In[288]:= "],Cell[
+BoxData["29.321531433504738`",StandardForm],
+"Output",CellID->23,CellLabel->"Out[293]= "]},Open]],Cell[
+BoxData[RowBox[{}]],"Input",
+CellID->2]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

@@ -1,0 +1,17 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*a)"," ","utworz"," ","wektor"," ","3"," ","4"," ","5"," ","6*)"}]]}],"\n",RowBox[
+{"Table","[","k",","," ","{","k",","," ","3",","," ","6","}","]"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*","b)"," ","utworz"," ","wektor"," ","1.0000"," ","1.5000"," ","2.0000"," ","2.5000"," ","3.0000","*)"}]]}],"\n",RowBox[
+{"Table","[","k"," ","*"," ",".5",","," ","{","k",","," ","2",","," ","6","}","]"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*","c)"," ","utworz"," ","wektor"," ","5"," ","4"," ","3"," ","2","*)"}]]}],"\n",RowBox[
+{"Reverse","[","Table","[","k",","," ","{","k",","," ","2",","," ","5","}","]","]"}]}],
+"Input",CellID->1,CellLabel->"In[223]:= "],Cell[
+BoxData[RowBox[{"{",RowBox[{"3",",","4",",","5",",","6"}],"}"}],
+StandardForm],"Output",CellID->44,CellLabel->"Out[224]= "],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"1.`",",","1.5`",",","2.`",",","2.5`",",","3.`"}],"}"}],StandardForm],"Output",CellID->46,
+CellLabel->"Out[226]= "],Cell[
+BoxData[RowBox[{"{",RowBox[{"5",",","4",",","3",",","2"}],"}"}],
+StandardForm],"Output",CellID->47,CellLabel->"Out[228]= "]},Open]]},StyleDefinitions->"Default.nb",
+FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

@@ -1,0 +1,25 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*a)"," ","liczba"," ","rzeczywista"," ","z"," ","przedzialu"," ","(0,"," ","1)*)"}]]}],"\n",RowBox[
+{"RandomReal","[","1","]"}],"\n","\n",RowBox[{StyleBox[RowBox[{"(*b)"," ","liczba"," ","rzeczywista"," ","z"," ","przedzialu"," ","(0,"," ","20",")*)"}]]}],"\n",RowBox[
+{"RandomReal","[","20","]"}],"\n","\n",RowBox[{StyleBox[RowBox[{"(*c)"," ","liczba"," ","rzeczywista"," ","z"," ","przedzialu"," ","(20,"," ","5","0",")*)"}]]}],"\n",RowBox[
+{"RandomReal","[","{","20",","," ","50","}","]"}],"\n","\n",RowBox[{StyleBox[RowBox[
+{"(*d)"," ","liczba"," ","calkowita"," ","z"," ","przedzialu"," ","(0,"," ","10)*)"}]]}],"\n",RowBox[
+{"RandomInteger","[","{","0",","," ","10","}","]"}],"\n","\n",RowBox[{StyleBox[RowBox[
+{"(*e)"," ","liczba"," ","calkowita"," ","z"," ","przedzialu"," ","(0,"," ","11)*)"}]]}],"\n",RowBox[
+{"RandomInteger","[","{","0",","," ","11","}","]"}],"\n","\n",RowBox[{StyleBox[RowBox[
+{"(*f)"," ","liczba"," ","calkowita"," ","z"," ","przedzialu"," ","(50,"," ","100)*)"}]]}],"\n",RowBox[
+{"RandomInteger","[","{","50",","," ","100","}","]"}]}],"Input",CellID->1,CellLabel->"In[177]:= "],Cell[
+BoxData[
+"0.1279538808363725`",StandardForm],"Output",CellID->95,CellLabel->"Out[178]= "],Cell[
+BoxData[
+"17.84429261097624`",StandardForm],"Output",CellID->97,CellLabel->"Out[180]= "],Cell[
+BoxData[
+"38.044181002526265`",StandardForm],"Output",CellID->98,CellLabel->"Out[182]= "],Cell[
+BoxData[
+"3",StandardForm],"Output",CellID->99,CellLabel->"Out[184]= "],Cell[
+BoxData["11",
+StandardForm],"Output",CellID->100,CellLabel->"Out[186]= "],Cell[
+BoxData["65",StandardForm],
+"Output",CellID->101,CellLabel->"Out[188]= "]},Open]]},StyleDefinitions->"Default.nb",
+FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

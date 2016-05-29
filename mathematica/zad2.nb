@@ -1,0 +1,9 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*","funkcja"," ","przeliczajaca"," ","stopnie"," ","fahrenheita"," ","na"," ","celsjusza","*)"}]]}],"\n",RowBox[
+{"ctemp","[","fahr_","]"," ",":="," ","(","fahr"," ","-"," ","32",")"," ","*"," ","5"," ","/"," ","9"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*temperatura"," ","w"," ","fahrenheit*)"}]]}],"\n",RowBox[{"ftemp"," ","="," ","60",";"}],"\n","\n",RowBox[
+{"(*wynik*)","\n","N","[","ctemp","[","ftemp","]","]"}]}],"Input",CellID->1,CellLabel->"In[18]:= "],Cell[
+BoxData[
+"15.555555555555555`",StandardForm],"Output",CellID->16,CellLabel->"Out[22]= "]},
+Open]]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

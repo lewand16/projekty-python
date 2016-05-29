@@ -1,0 +1,22 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*znajdz"," ","elegancji"," ","sposob"," ","generacji"," ","macierzy:*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*7"," ","8"," ","9"," ","10*)"}]]}],"\n",RowBox[{StyleBox[RowBox[
+{"(*12"," ","10"," ","8"," ","6*)"}]]}],"\n",RowBox[{"macierz"," ","="," ","{","Table","[","k",","," ","{","k",","," ","7",","," ","10","}","]",","," ","Reverse","[","Table","[","j",",","{","j",","," ","6",","," ","12",","," ","2","}","]","]","}",";"}],"\n",RowBox[
+{"MatrixForm","[","macierz","]"}],"\n",RowBox[{StyleBox[RowBox[{"(*a)"," ","wyswietl"," ","element"," ","w"," ","pierwszym"," ","wierszu"," ","i"," ","trzeciej"," ","kolumnie"," ","*)"}]]}],"\n",RowBox[
+{"macierz","[","[","1",","," ","3","]","]"}],"\n","\n",RowBox[{StyleBox[RowBox[{"(*b)"," ","wyswietl"," ","wszystkie"," ","elementy"," ","drugiego"," ","wiersza"," ","(wyswietla"," ","sie"," ","obok"," ","siebie)*)"}]]}],"\n",RowBox[
+{"macierz","[","[","2","]","]"}],"\n","\n",RowBox[{StyleBox[RowBox[{"(*c)"," ","pierwsze"," ","dwie"," ","kolumny*)"}]]}],"\n",RowBox[
+{"macierz","[","[","{","1",",","2","}",",","{","1",",","2","}","]","]"}]}],"Input",
+CellID->1,CellLabel->"In[328]:= "],Cell[
+BoxData[TagBox[RowBox[{"(","\[NoBreak]",GridBox[
+{{"7","8","9","10"},{"12","10","8","6"}},RowSpacings->1,ColumnSpacings->1,RowAlignments->Baseline,
+ColumnAlignments->Center],"\[NoBreak]",")"}],Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],
+StandardForm],"Output",CellID->134,CellLabel->"Out[332]//MatrixForm= "],Cell[
+BoxData[
+"9",StandardForm],"Output",CellID->136,CellLabel->"Out[334]= "],Cell[
+BoxData[RowBox[
+{"{",RowBox[{"12",",","10",",","8",",","6"}],"}"}],StandardForm],"Output",CellID->137,
+CellLabel->"Out[336]= "],Cell[
+BoxData[RowBox[{"{",RowBox[{RowBox[{"{",RowBox[{"7",",","8"}],"}"}],",",RowBox[
+{"{",RowBox[{"12",",","10"}],"}"}]}],"}"}],StandardForm],"Output",CellID->138,CellLabel->"Out[338]= "]},
+Open]]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

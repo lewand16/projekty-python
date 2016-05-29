@@ -1,0 +1,16 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*utworz"," ","macierz"," ","3x5"," ","losowych"," ","liczb"," ","rzeczywistych*)"}]]}],"\n",RowBox[
+{"macierz"," ","="," ","RandomReal","[","1",",","{","3",","," ","5","}","]",";"}],"\n",RowBox[
+{"MatrixForm","[","macierz","]"}],"\n","\n",RowBox[{StyleBox[RowBox[{"(*usun"," ","jej"," ","3"," ","wiersz*)"}]]}],"\n",RowBox[
+{"macierz"," ","="," ","Delete","[","macierz",","," ","{","3","}","]",";"}],"\n",RowBox[
+{"MatrixForm","[","macierz","]"}]}],"Input",CellID->1,CellLabel->"In[258]:= "],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"0.011092517430012272`","0.24323343476813974`","0.03494814550536063`","0.5679983707754728`","0.22275948343946728`"},{"0.24430935213090654`","0.04087776111680719`","0.271497486522835`","0.5351317643262918`","0.4916529204771374`"},{"0.7414063976312775`","0.019732235061201697`","0.7556197504825435`","0.8322943543793029`","0.08308674004930339`"}},
+RowSpacings->1,ColumnSpacings->1,RowAlignments->Baseline,ColumnAlignments->Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellID->24,CellLabel->"Out[260]//MatrixForm= "],Cell[
+BoxData[
+TagBox[RowBox[{"(","\[NoBreak]",GridBox[{{"0.011092517430012272`","0.24323343476813974`","0.03494814550536063`","0.5679983707754728`","0.22275948343946728`"},{"0.24430935213090654`","0.04087776111680719`","0.271497486522835`","0.5351317643262918`","0.4916529204771374`"}},
+RowSpacings->1,ColumnSpacings->1,RowAlignments->Baseline,ColumnAlignments->Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellID->26,CellLabel->"Out[263]//MatrixForm= "]},
+Open]]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

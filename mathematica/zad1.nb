@@ -1,0 +1,12 @@
+Notebook[{Cell[
+BoxData[RowBox[{}]],"Input",CellID->1],Cell[
+CellGroupData[{Cell[
+BoxData[
+{RowBox[{StyleBox[RowBox[{"(*opor"," ","zastepczy"," ","trzech"," ","opornikow*)"}]]}],"\n",RowBox[
+{"rezZast","[","R1_",","," ","R2_",","," ","R3_","]"," ",":="," ","1"," ","/"," ","(","(","1"," ","/"," ","R1",")"," ","+"," ","(","1"," ","/"," ","R2",")"," ","+"," ","(","1"," ","/"," ","R3",")",")"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*dane"," ","wejsciowe*)"}]]}],"\n",RowBox[{"R1"," ","="," ","3",";"}],"\n",RowBox[
+{"R2"," ","="," ","3",";"}],"\n",RowBox[{"R3"," ","="," ","3",";"}],"\n","\n",RowBox[
+{"(*wynik*)","\n","rezZast","[","R1",","," ","R2",","," ","R3","]","\n","\n"}]}],
+"Input",CellID->2,CellLabel->"In[1]:= "],Cell[
+BoxData["1",StandardForm],"Output",
+CellID->7,CellLabel->"Out[6]= "]},Open]]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

@@ -1,0 +1,12 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*przyblizona"," ","wartosc"," ","funkcji"," ","silnia"," ","moze"," ","byc"," ","otrzymana"," ","za"," ","pomoca"," ","formuly"," ","Stirlinga:*)"}]]}],"\n",RowBox[
+{"silnia","[","n_","]"," ",":="," ","Sqrt","[","2"," ","*"," ","Pi"," ","*"," ","n","]"," ","*"," ","(","(","n"," ","/"," ","E",")","^","n",")"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*dana"," ","wejsciowa*)"}]]}],"\n",RowBox[{"n"," ","="," ","11",";"}],"\n",RowBox[
+{"N","[","silnia","[","n","]","]"}],"\n",RowBox[{"Factorial","[","n","]"}]}],"Input",
+CellID->1,CellLabel->"In[44]:= "],Cell[
+BoxData["3.9615625050577484`*^7",StandardForm],
+"Output",CellID->19,CellLabel->"Out[48]= "],Cell[
+BoxData["39916800",StandardForm],
+"Output",CellID->21,CellLabel->"Out[49]= "]},Open]]},StyleDefinitions->"Default.nb",
+FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

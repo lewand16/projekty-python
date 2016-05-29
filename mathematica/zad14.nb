@@ -1,0 +1,9 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*napisz"," ","funkcje"," ","obliczpoleprost,"," ","ktora"," ","oblicza"," ","pole"," ","prostokata"," ","dla"," ","podanych"," ","dlugosci"," ","bokow*)"}]]}],"\n",RowBox[
+{"obliczpoleprost","[","a_",","," ","b_","]"," ",":="," ","a"," ","*"," ","b"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*dane"," ","wejsciowe*)"}]]}],"\n",RowBox[{"a"," ","="," ","2",";"}],"\n",RowBox[
+{"b"," ","="," ","3",";"}],"\n",RowBox[{"obliczpoleprost","[","a",",","b","]"}]}],
+"Input",CellID->1,CellLabel->"In[1]:= "],Cell[
+BoxData["6",StandardForm],"Output",
+CellID->2,CellLabel->"Out[6]= "]},Open]]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]
