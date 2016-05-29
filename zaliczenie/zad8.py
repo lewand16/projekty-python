@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 x = np.linspace(-np.pi, np.pi, 21)
 
 #oblicz y = x^2 - 4x + 3
-y = [2, -4, 3]
+y = [1, -4, 3]
 rozw = np.polyval(y, x)
 
 #sporzadz odpowiedni wykres
