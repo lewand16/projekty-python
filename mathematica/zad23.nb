@@ -1,0 +1,21 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*napisz"," ","funkcje,"," ","ktora"," ","pobiera"," ","macierz"," ","i"," ","oblicza"," ","srednia"," ","wszystkich"," ","jej"," ","elementow*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*tworzenie"," ","losowej"," ","macierzy"," ","o"," ","podanym"," ","rozmiarze*)"}]]}],"\n",RowBox[
+{"n"," ","="," ","4",";"}],"\n",RowBox[{"m"," ","="," ","4",";"}],"\n",RowBox[{"macierz"," ","="," ","RandomInteger","[","10",",","{","n",","," ","m","}","]",";"}],"\n",RowBox[
+{"MatrixForm","[","macierz","]"}],"\n","\n",RowBox[{StyleBox[RowBox[{"(*wbudowana"," ","funkcja"," ","liczaca"," ","srednia*)"}]]}],"\n",RowBox[
+{"N","[","Mean","[","Flatten","[","macierz","]","]","]"}],"\n",RowBox[{StyleBox[RowBox[
+{"(*trzeba"," ","splaszczyc,"," ","bo"," ","inaczej"," ","liczy"," ","srednia"," ","kazdej"," ","kolumny*)"}]]}],"\n","\n",RowBox[
+{"sredniaMacierzy","[","n",","," ","m",","," ","macierz","]"}],"\n",RowBox[{StyleBox[
+RowBox[{"(*stworzona"," ","funkcja"," ","liczaca"," ","srednia*)"}]]}],"\n",RowBox[
+{"sredniaMacierzy","[","n_",","," ","m_",","," ","mac_","]"," ",":="," ","For","[","{","wiersz"," ","="," ","1",","," ","srednia"," ","="," ","0","}",",","wiersz","\[LessEqual]","n",",","wiersz","++",","," ","For","[","kolumna"," ","="," ","1",",","kolumna","\[LessEqual]"," ","m",",","kolumna","++",",","srednia","="," ","srednia"," ","+"," ","mac","[","[","wiersz",","," ","kolumna","]","]","]","]",";"," ","N","[","srednia"," ","/"," ","(","n"," ","*"," ","m",")","]","\n","\n"}]}],
+"Input",CellID->1,CellLabel->"In[1087]:= "],Cell[
+BoxData[TagBox[RowBox[{"(","\[NoBreak]",GridBox[
+{{"1","2","5","4"},{"9","3","1","9"},{"3","4","2","5"},{"6","2","9","4"}},RowSpacings->1,
+ColumnSpacings->1,RowAlignments->Baseline,ColumnAlignments->Center],"\[NoBreak]",")"}],
+Function[BoxForm`e$,MatrixForm[BoxForm`e$]]],StandardForm],"Output",CellID->330,CellLabel->"Out[1092]//MatrixForm= "],Cell[
+BoxData[
+"4.3125`",StandardForm],"Output",CellID->332,CellLabel->"Out[1094]= "],Cell[
+BoxData[
+"4.3125`",StandardForm],"Output",CellID->333,CellLabel->"Out[1098]= "]},Open]]},StyleDefinitions->"Default.nb",
+FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

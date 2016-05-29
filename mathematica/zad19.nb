@@ -1,0 +1,11 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*napisz"," ","funkcje"," ","wektormn,"," ","tworzaca"," ","wektor"," ","liczb"," ","calkowitych"," ","od"," ","m"," ","do"," ","n"," ","niezaleznie"," ","od"," ","tego,*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*ktory"," ","z"," ","tych"," ","parametrow"," ","jest"," ","wiekszy."," ","Jezeli"," ","m"," ","="," ","n,"," ","to"," ","wektor"," ","bedzie"," ","mial"," ","1"," ","element*)"}]]}],"\n",RowBox[
+{"wektormn","[","m_",","," ","n_","]"," ",":="," ","If","[","m"," ","\[LessEqual]"," ","n",",","Table","[","k",",","{","k",","," ","m",","," ","n","}","]",","," ","Table","[","k",",","{","k",","," ","n",","," ","m","}","]","]"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*dane"," ","wejsciowe*)"}]]}],"\n",RowBox[{"m"," ","="," ","3",";"}],"\n",RowBox[
+{"n"," ","="," ","3",";"}],"\n",RowBox[{"x"," ","="," ","wektormn","[","m",","," ","n","]"}]}],
+"Input",CellID->1,CellLabel->"In[96]:= "],Cell[
+BoxData[RowBox[{"{","3","}"}],StandardForm],
+"Output",CellID->7,CellLabel->"Out[102]= "]},Open]]},StyleDefinitions->"Default.nb",
+FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

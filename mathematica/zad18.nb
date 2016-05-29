@@ -1,0 +1,13 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*jezeli"," ","znane"," ","sa"," ","dlugosci"," ","dwoch"," ","bokow"," ","trojkata"," ","i"," ","kat"," ","miedzy"," ","nimi,"," ","to"," ","mozna"," ","obliczyc*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*dlugosc"," ","trzeciego"," ","boku"," ","uzywajac"," ","formuly:*)"}]]}],"\n",RowBox[
+{"trzeciBok","[","b_",","," ","c_",","," ","alpha_","]"," ",":="," ","Sqrt","[","b","^","2"," ","+"," ","c","^","2"," ","-"," ","(","2"," ","*"," ","b"," ","*"," ","c"," ","*"," ","Cos","[","alpha","]",")","]"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*dane"," ","wejsciowe*)"}]]}],"\n",RowBox[{"b"," ","="," ","2",";"}],"\n",RowBox[
+{"c"," ","="," ","2",";"}],"\n",RowBox[{"kat"," ","="," ","30",";"}],"\n",RowBox[
+{"alpha"," ","="," ","kat"," ","*"," ","Pi"," ","/"," ","180",";"," ",StyleBox[RowBox[
+{"(*zamiana"," ","stopni"," ","na"," ","radiany*)"}]]}],"\n",RowBox[{"N","[","trzeciBok","[","b",","," ","c",","," ","alpha","]","]"}]}],
+"Input",CellID->1,CellLabel->"In[17]:= "],Cell[
+BoxData["1.0352761804100832`",StandardForm],
+"Output",CellID->13,CellLabel->"Out[25]= "]},Open]]},StyleDefinitions->"Default.nb",
+FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

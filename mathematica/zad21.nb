@@ -1,0 +1,13 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*napisz"," ","funkcje"," ","sumkrok2,"," ","ktora"," ","oblicza"," ","sume"," ","liczb"," ","od"," ","1"," ","do"," ","n"," ","z"," ","krokiem"," ","2,*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*gdzie"," ","n"," ","jest"," ","argumentem"," ","funkcji*)"}]]}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*dana"," ","wejsciowa*)"}]]}],"\n",RowBox[{"n"," ","="," ","10",";"}],"\n",RowBox[
+{"sumkrok2","[","n","]"}],"\n","\n",RowBox[{"sumkrok2","[","n_","]"," ",":="," ","For","[","{","i","=","1",","," ","suma","=","0","}",","," ","i","\[LessEqual]","n",",","i","=","i","+","2",",","suma"," ","="," ","suma","+","i","]",";"," ","suma"}],"\n",RowBox[
+{StyleBox[RowBox[{"(*komentarz"," ","do"," ","powyzej:*)"}]]}],"\n",RowBox[{StyleBox[
+RowBox[{"(*tworzymy"," ","zmienna"," ","i=1"," ","i"," ","suma=0"," ","w"," ","petli"," ","for*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*do"," ","sumy"," ","dodajemy"," ","wartosc"," ","i"," ","z"," ","krokiem"," ","2*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*gdy"," ","i"," ","bedzie"," ","wieksze"," ","od"," ","n,"," ","to"," ","wychodzimy"," ","z"," ","petli"," ","for"," ","i"," ","zwracamy"," ","wartosc"," ","suma*)"}]],"\n","\n","\n"}]}],
+"Input",CellID->1,CellLabel->"In[1022]:= "],Cell[
+BoxData["25",StandardForm],"Output",
+CellID->7,CellLabel->"Out[1027]= "]},Open]]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]
