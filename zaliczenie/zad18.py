@@ -16,6 +16,7 @@ def trzeciBok(b, c, alpha):
 #dane wejsciowe
 b = 2
 c = 2
-alpha = 30 * np.pi / 180   #zamiana stopni na radiany
+kat = 30
+alpha = kat * np.pi / 180   #zamiana stopni na radiany
 
 print(trzeciBok(b, c, alpha))
