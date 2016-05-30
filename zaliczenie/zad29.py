@@ -18,6 +18,9 @@ x2 = 8
 w1 = np.polyval(wielomian, x1)
 w2 = np.polyval(wielomian, x2)
 
+print('wielomian z x = 6 :', w1)
+print('wielomian z x = 8 :', w2)
+
 #tworzenie osi x w zakresie szukanych punktow
 x = np.linspace(0, 10, 101)
 
