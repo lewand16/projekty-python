@@ -2,9 +2,9 @@ Notebook[{Cell[
 CellGroupData[{Cell[
 BoxData[{RowBox[{StyleBox[RowBox[{"(*napisz"," ","funkcje"," ","geomsum,"," ","ktora"," ","pobiera"," ","wartosci"," ","r"," ","oraz"," ","n"," ","i"," ","oblicza"," ","sume"," ","szeregu"," ","geometrycznego*)"}]]}],"\n",RowBox[
 {StyleBox[RowBox[{"(*1"," ","+"," ","r"," ","+"," ","r^2"," ","+"," ","r^3"," ","+"," ","r^4"," ","+"," ","..."," ","+"," ","r^n*)"}]]}],"\n","\n",RowBox[
-{StyleBox[RowBox[{"(*dane"," ","wejsciowe*)"}]]}],"\n",RowBox[{"r"," ","="," ","1",";"}],"\n",RowBox[
-{"n"," ","="," ","10",";"}],"\n",RowBox[{"geomsum","[","r",","," ","n","]"," "}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*dane"," ","wejsciowe*)"}]]}],"\n",RowBox[{"r1"," ","="," ","1",";"}],"\n",RowBox[
+{"n1"," ","="," ","10",";"}],"\n",RowBox[{"geomsum","[","r1",","," ","n1","]"," "}],"\n","\n",RowBox[
 {"geomsum","[","r_",","," ","n_","]"," ",":="," ","For","[","{","i","=","1",","," ","suma","=","1","}",","," ","i","\[LessEqual]","n",",","i","++",",","suma"," ","="," ","suma","+"," ","(","r","^","i",")","]",";"," ","suma","\n","\n"}]}],
-"Input",CellID->1,CellLabel->"In[1032]:= "],Cell[
+"Input",CellID->1,CellLabel->"In[684]:= "],Cell[
 BoxData["11",StandardForm],"Output",
-CellID->2,CellLabel->"Out[1038]= "]},Open]]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]
+CellID->18,CellLabel->"Out[690]= "]},Open]]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]
