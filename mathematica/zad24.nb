@@ -1,0 +1,26 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*zbuduj"," ","wektor,"," ","zawierajacy"," ","piec"," ","liczb"," ","losowych"," ","z"," ","zakresu"," ","od"," ","-10"," ","do"," ","10*)"}]]}],"\n",RowBox[
+{"wektor"," ","="," ","RandomInteger","[","{","-","10",","," ","10","}",","," ","5","]"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*a)"," ","odejmij"," ","3"," ","od"," ","kazdego"," ","elementu*)"}]]}],"\n",RowBox[
+{"wektor"," ","="," ","wektor"," ","-"," ","3"}],"\n","\n",RowBox[{StyleBox[RowBox[
+{"(*b)"," ","oblicz"," ","ile"," ","elementow"," ","jest"," ","dodatnich*)"}]]}],"\n",RowBox[
+{"For","[","{","i","=","1",","," ","licznik"," ","="," ","0","}",",","i","\[LessEqual]","5",",","i","++",",","If","[","wektor","[","[","i","]","]","\[GreaterEqual]","0",",","licznik"," ","="," ","licznik"," ","+"," ","1","]","]",";","licznik"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*c)"," ","oblicz"," ","modul"," ","kazdego"," ","elementu*)"}]]}],"\n",RowBox[
+{"For","[","i","=","1",",","i","\[LessEqual]","5",",","i","++",",","If","[","wektor","[","[","i","]","]"," ","<"," ","0",",","wektor","[","[","i","]","]",StyleBox[
+RowBox[{" "," "}]],"="," ","wektor","[","[","i","]","]",StyleBox[RowBox[{" "," "}]],"*"," ","(","-","1",")","]","]",";","wektor"}],"\n","\n",RowBox[
+{StyleBox[RowBox[{"(*d)"," ","znajdz"," ","element"," ","maksymalny*)"}]]}],"\n",RowBox[
+{"For","[","{","i","=","1",","," ","maks"," ","="," ","-","99","}",",","i","\[LessEqual]","5",",","i","++",",","If","[","wektor","[","[","i","]","]",">"," ","maks",",","maks"," ","="," ","wektor","[","[","i","]","]","]","]",";"," ","maks"}]}],
+"Input",CellID->1,CellLabel->"In[142]:= "],Cell[
+BoxData[RowBox[{"{",RowBox[{"7",",","4",",","0",",","8",",",RowBox[
+{"-","5"}]}],"}"}],StandardForm],"Output",CellID->146,CellLabel->"Out[143]= "],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"4",",","1",",",RowBox[{"-","3"}],",","5",",",RowBox[{"-","8"}]}],"}"}],
+StandardForm],"Output",CellID->148,CellLabel->"Out[145]= "],Cell[
+BoxData["3",StandardForm],
+"Output",CellID->149,CellLabel->"Out[147]= "],Cell[
+BoxData[RowBox[{"{",RowBox[{"4",",","1",",","3",",","5",",","8"}],"}"}],
+StandardForm],"Output",CellID->150,CellLabel->"Out[149]= "],Cell[
+BoxData["8",StandardForm],
+"Output",CellID->151,CellLabel->"Out[151]= "]},Open]]},StyleDefinitions->"Default.nb",
+FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

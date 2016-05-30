@@ -1,0 +1,22 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{StyleBox[RowBox[{"(*rozwaz"," ","uklad"," ","rownan:*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]"," "," "," "," "," "," "," "," "," ","4x1"," ","-"," ","x2"," ","+"," ","3x4"," ","="," ","10*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*","\[NonBreakingSpace]","-2x1"," ","+"," ","3x2"," ","+"," ","x3"," ","-"," ","5x4"," ","="," ","-3*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]"," "," "," "," "," "," ","x1"," ","+"," ","x2"," ","-"," ","x3"," ","+"," ","2x4"," ","="," ","2*)"}]]}],"\n",RowBox[
+{StyleBox[RowBox[{"(*","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]","\[NonBreakingSpace]"," "," "," "," "," "," "," "," ","3x1"," ","+"," ","2x2"," ","-"," ","4x3"," ","="," ","4*)"}]]}],"\n","\n",RowBox[
+{"macierz"," ","="," ","{","{","4",","," ","-","1",","," ","0",","," ","3","}",",","{","-","2",","," ","3",","," ","1",","," ","-","5","}",",","{","1",","," ","1",","," ","-","1",","," ","2","}",",","{","3",","," ","2",","," ","-","4",","," ","0","}","}"}],"\n",RowBox[
+{"wektor"," ","="," ","{","10",","," ","-","3",","," ","2",","," ","4","}"}],"\n","\n",RowBox[
+{"wynik"," ","="," ","N","[","LinearSolve","[","macierz",","," ","wektor","]","]"}]}],
+"Input",CellID->1,CellLabel->"In[586]:= "],Cell[
+BoxData[RowBox[{"{",RowBox[{RowBox[
+{"{",RowBox[{"4",",",RowBox[{"-","1"}],",","0",",","3"}],"}"}],",",RowBox[{"{",RowBox[
+{RowBox[{"-","2"}],",","3",",","1",",",RowBox[{"-","5"}]}],"}"}],",",RowBox[{"{",RowBox[
+{"1",",","1",",",RowBox[{"-","1"}],",","2"}],"}"}],",",RowBox[{"{",RowBox[{"3",",","2",",",RowBox[
+{"-","4"}],",","0"}],"}"}]}],"}"}],StandardForm],"Output",CellID->25,CellLabel->"Out[591]= "],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"10",",",RowBox[{"-","3"}],",","2",",","4"}],"}"}],StandardForm],
+"Output",CellID->27,CellLabel->"Out[592]= "],Cell[
+BoxData[RowBox[{"{",RowBox[{"2.558139534883721`",",","0.4418604651162791`",",","1.1395348837209303`",",","0.06976744186046512`"}],"}"}],
+StandardForm],"Output",CellID->28,CellLabel->"Out[593]= "]},Open]]},StyleDefinitions->"Default.nb",
+FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]
