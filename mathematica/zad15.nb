@@ -1,9 +1,9 @@
 Notebook[{Cell[
 CellGroupData[{Cell[
 BoxData[{RowBox[{StyleBox[RowBox[{"(*napisz"," ","funkcje"," ","hipsin"," ","argumentu"," ","x"," ","z"," ","definicji"," ","sinusa"," ","hiperbolicznego(x)*)"}]]}],"\n",RowBox[
-{"hipsin","[","x_","]"," ",":="," ","(","(","E","^","x",")"," ","-"," ","(","E","^","(","-","2",")",")",")"," ","/"," ","2"}],"\n","\n",RowBox[
+{"hipsin","[","x_","]"," ",":="," ","(","(","E","^","x",")"," ","-"," ","(","E","^","(","-","x",")",")",")"," ","/"," ","2"}],"\n","\n",RowBox[
 {StyleBox[RowBox[{"(*dana"," ","wejsciowa*)"}]]}],"\n",RowBox[{"x"," ","="," ","5",";"}],"\n",RowBox[
-{"N","[","hipsin","[","x","]","]"}]}],"Input",CellID->1,CellLabel->"In[12]:= "],Cell[
+{"N","[","hipsin","[","x","]","]"}]}],"Input",CellID->1,CellLabel->"In[6]:= "],Cell[
 BoxData[
-"74.13891190967`",StandardForm],"Output",CellID->7,CellLabel->"Out[16]= "]},Open]]},
+"74.20321057778875`",StandardForm],"Output",CellID->8,CellLabel->"Out[10]= "]},Open]]},
 StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]
