@@ -10,19 +10,20 @@ import numpy.random as npr
 import matplotlib.pyplot as plt
 
 #zbuduj wektory zawierajace wspolrzedne czterech punktow na plaszczyznie
-x = np.arange(1, 5, 1)
+x = np.arange(1, 61, 15)
 y = 10 * npr.rand(4) - 5
 
 #dopasuj na nich funkcje liniowa polyfit(os x, os y, potega wielomianu)
-y1 = np.polyfit(x, y, 1)
-prosta = np.poly1d(y1)
+xg = np.arange(1, 61, 1)
+p1 = np.polyfit(x, y, 1)
+prosta = np.polyval(p1, xg)
 
 #dopasuj na nich funkcje kwadratowa
-y2 = np.polyfit(x, y, 2)
-kwadratowa = np.poly1d(y2)
+p2 = np.polyfit(x, y, 2)
+kwadratowa = np.polyval(p2, xg)
 
 #narysuj te funkcje i punkty na wykresie
 plt.plot(x, y, 'o')
-plt.plot(x, prosta(x))
-plt.plot(x, kwadratowa(x))
+plt.plot(xg, prosta)
+plt.plot(xg, kwadratowa)
 plt.show()
